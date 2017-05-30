@@ -1,6 +1,6 @@
 # Introduction to Computer Science - Fall 2017
 
-## Lab 5 - Variables, user Interaction, and Arithmetic
+## Lab 5 - Variables, User Interaction, and Arithmetic
 
 **Purpose:** The purpose of this lab is to introduce arithmetic to JavaScript and user interaction. You will get some experience developing interactive Web pages using both HTML and JavaScript. You will design and write a simple page that computes the weighted average of scores in a typical college course.
 
