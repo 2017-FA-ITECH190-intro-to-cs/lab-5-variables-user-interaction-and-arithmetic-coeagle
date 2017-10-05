@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<title>My title</title>
+<script>
+<input type="button" value="calculate grade"
+	onclick="
+		HW = parseFloat(document.getElementById('HW').value);
+		Lab = parseFloat(document.getElementById('lab').value);
+		Midterm = parseFloat(document.getElementById('midterm').value);
+		fianl = parseFloat(document.getElementById('final').value);
+		graded average = HW * .25 * lab * .20 * midterm * .25 * final * .30;
+		document.getElementById('outputDiv').innerHTML=
+		'<p> Your graded average is' + graded average + '</p>';" />
+		
+    
+</script>
+</head>
+<body>
+    <table>
+         <ul> Homework is worth 25% of your final grade </ul>
+            <ul> Labs are worth 20% of the final </ul>
+            <ul> The Midterm Exam is worth 25% of the final grade </ul>
+            <ul> The Final Exam is worth 30% of the final grade </ul>
+       </table>
+<p>
+    Homework grade:<input id="HW" type="text"/>
+    Lab grade:<input id="lab" type="text"/>
+    midterm:<input id="midterm" type="text"/>
+    final:<input id="final" type="text"/>
+</p>
+</body>
+
+</html>
